@@ -16,7 +16,7 @@ pipeline {
    //     }
  //   }
 //}
-stage('Code Quality') {
+/*stage('Code Quality') {
                    steps {
                        script {
                           def scannerHome = tool 'sonarscanner';
@@ -25,7 +25,7 @@ stage('Code Quality') {
                                        }
                                }
                            }
-                        }
+                        }*/
         
         stage('Build') {
    //         agent { docker 'maven:3.5-alpine' }
